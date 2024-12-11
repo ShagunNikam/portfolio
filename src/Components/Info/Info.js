@@ -6,6 +6,7 @@ const Info = () => {
   const [skills] = useState(skillData);
   const [companies] = useState(companyData);
   return (
+    
     <>
       <section className="info_section">
         <div className="wrapper">
