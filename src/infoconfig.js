@@ -1,13 +1,13 @@
-import { ReactComponent as ReactLogo } from '../src/Assets/svg/react.svg';
-import { ReactComponent as Angular } from '../src/Assets/svg/angular.svg';
-import { ReactComponent as Javascript } from '../src/Assets/svg/javascript.svg';
-import { ReactComponent as CSS } from '../src/Assets/svg/css.svg';
-import { ReactComponent as Github } from '../src/Assets/svg/github.svg';
-import { ReactComponent as Typescript } from '../src/Assets/svg/typescript.svg';
-import { ReactComponent as Jest } from '../src/Assets/svg/jest.svg';
-import { ReactComponent as Html } from '../src/Assets/svg/html.svg';
-import { ReactComponent as Npm } from '../src/Assets/svg/npm.svg';
-import { ReactComponent as Mongodb } from '../src/Assets/svg/mongodb.svg';
+import { ReactComponent as ReactLogo } from '../src/assets/svg/react.svg';
+import { ReactComponent as Angular } from '../src/assets/svg/angular.svg';
+import { ReactComponent as Javascript } from '../src/assets/svg/javascript.svg';
+import { ReactComponent as CSS } from '../src/assets/svg/css.svg';
+import { ReactComponent as Github } from '../src/assets/svg/github.svg';
+import { ReactComponent as Typescript } from '../src/assets/svg/typescript.svg';
+import { ReactComponent as Jest } from '../src/assets/svg/jest.svg';
+import { ReactComponent as Html } from '../src/assets/svg/html.svg';
+import { ReactComponent as Npm } from '../src/assets/svg/npm.svg';
+import { ReactComponent as Mongodb } from '../src/assets/svg/mongodb.svg';
 
 export const skillData = [
     { name: 'React', Component: ReactLogo },
