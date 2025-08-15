@@ -8,9 +8,11 @@ import { ReactComponent as Jest } from '../src/assets/svg/jest.svg';
 import { ReactComponent as Html } from '../src/assets/svg/html.svg';
 import { ReactComponent as Npm } from '../src/assets/svg/npm.svg';
 import { ReactComponent as Mongodb } from '../src/assets/svg/mongodb.svg';
+import { ReactComponent as Redux } from '../src/assets/svg/redux.svg';
 
 export const skillData = [
     { name: 'React', Component: ReactLogo },
+    { name: 'Redux', Component: Redux },
     { name: 'Angular', Component: Angular },
     { name: 'Typescript', Component: Typescript },
     { name: 'Javascript', Component: Javascript },
