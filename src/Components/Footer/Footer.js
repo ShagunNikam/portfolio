@@ -16,7 +16,7 @@ const Footer = () => {
           </div>
           <div className="footer_content d-flex">
             <div className="copy_rights">
-              <p>&copy; 2024 - All rights reserved </p>
+              <p>&copy; 2025 - All rights reserved </p>
             </div>
             <div className="footer_links">
               <ul className="list">

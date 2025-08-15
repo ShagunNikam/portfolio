@@ -1,11 +1,10 @@
 import React from "react";
 import "./_home.scss";
-import { ReactComponent as Beardo } from "../../Assets/svg/beard.svg";
+import { ReactComponent as Beardo } from "../../assets/svg/beard.svg";
 import { PiCaretDoubleDownThin } from "react-icons/pi";
 import Canvas from "../Canvas";
 
 const Home = () => {
-  const [count, setCount] = React.useState(4);
 
   return (
     <>
