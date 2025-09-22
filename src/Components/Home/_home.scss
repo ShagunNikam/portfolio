@@ -12,11 +12,15 @@
   z-index: -1;
 }
 .logo {
-    position: absolute;
-    left: 24px;
-    top: 0;
-    color: #133154;
-    font-weight: 700;
+  position: absolute;
+  left: 24px;
+  top: 0;
+  color: #133154;
+  font-weight: 700;
+  @media (max-width: 768px) {
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 .index_wrap {
   width: 100%;
@@ -26,7 +30,7 @@
   .content_text {
     width: 70%;
     padding: 0 30px;
-    
+
     .title {
       font-size: 3.125rem;
       text-align: left;
@@ -42,15 +46,36 @@
       span {
         font-size: 8.5rem;
         line-height: 100px;
+        @media (max-width: 768px) {
+          font-size: 3rem;
+          line-height: normal;
+        }
       }
+      @media (max-width: 768px) {
+        font-size: 1.3rem;
+        margin: 1.8rem 0;
+        text-align: center;
+      }
+    }
+
+    @media (max-width: 768px) {
+      margin-top: 3rem;
+      width: 100%;
+      padding: 0;
     }
   }
   .beardo_svg {
     width: 30%;
+    @media (max-width: 768px) {
+      width: 100%;
+    }
   }
   .avatar {
     width: 330px;
     height: 600px;
+  }
+  @media (max-width: 768px) {
+    flex-direction: column;
   }
 }
 
@@ -65,6 +90,25 @@
 }
 
 @keyframes mymove {
-  from {bottom: 15%;}
-  to {bottom: 10px;}
+  from {
+    bottom: 15%;
+  }
+  to {
+    bottom: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .downarrow {
+    font-size: 3rem;
+  }
+
+  @keyframes mymove {
+    from {
+      bottom: -5%;
+    }
+    to {
+      bottom: -130px;
+    }
+  }
 }
