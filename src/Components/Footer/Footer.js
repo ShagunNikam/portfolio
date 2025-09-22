@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="footer_text d-flex">
             <h2 className="text text1">Want to connect?</h2>
             <h1 className="text text2">Let's have a chat!</h1>
-            <p className="text text3">Designed and Coded by shagun nikam. Built with React and SCSS.</p>
+            <p className="text text3">Designed and Coded by shagun nikam. Built with React</p>
           </div>
           <div className="footer_content d-flex">
             <div className="copy_rights">
