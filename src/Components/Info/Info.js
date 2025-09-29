@@ -79,7 +79,7 @@ const Info = () => {
             </div>
           </div>
           <div className="download_cv" onClick={downloadResume}>
-            <a className="box__link button-animation" href="#">
+            <a className="box__link button-animation" >
               Download Resume
               <span></span>
               <span></span>
