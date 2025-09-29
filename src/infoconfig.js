@@ -1,15 +1,3 @@
-// import { ReactComponent as ReactLogo } from '../src/assets/svg/react.svg';
-// import { ReactComponent as Angular } from '../src/assets/svg/angular.svg';
-// import { ReactComponent as Javascript } from '../src/assets/svg/javascript.svg';
-// import { ReactComponent as CSS } from '../src/assets/svg/css.svg';
-// import { ReactComponent as Github } from '../src/assets/svg/github.svg';
-// import { ReactComponent as Typescript } from '../src/assets/svg/typescript.svg';
-// import { ReactComponent as Jest } from '../src/assets/svg/jest.svg';
-// import { ReactComponent as Html } from '../src/assets/svg/html.svg';
-// import { ReactComponent as Npm } from '../src/assets/svg/npm.svg';
-// import { ReactComponent as Mongodb } from '../src/assets/svg/mongodb.svg';
-// import { ReactComponent as Redux } from '../src/assets/svg/redux.svg';
-
 import ReactLogo from '../src/assets/svg/react.svg';
 import Angular from '../src/assets/svg/angular.svg';
 import Javascript from '../src/assets/svg/javascript.svg';
@@ -21,21 +9,7 @@ import Html from '../src/assets/svg/html.svg';
 import Npm from '../src/assets/svg/npm.svg';
 import Mongodb from '../src/assets/svg/mongodb.svg';
 import Redux from '../src/assets/svg/redux.svg';
-
-
-// export const skillData = [
-//     { name: 'React', Component: ReactLogo },
-//     { name: 'Redux', Component: Redux },
-//     { name: 'Angular', Component: Angular },
-//     { name: 'Typescript', Component: Typescript },
-//     { name: 'Javascript', Component: Javascript },
-//     { name: 'HTML5', Component: Html },
-//     { name: 'CSS', Component: CSS },
-//     { name: 'Jest', Component: Jest },
-//     { name: 'Github', Component: Github },
-//     { name: 'Npm', Component: Npm },
-//     { name: 'MongoDB', Component: Mongodb },
-// ];
+import Tailwind from '../src/assets/svg/tailwind.svg'
 
 export const skillData = [
   { name: 'React', Component: () => <img src={ReactLogo} width={100} height={100} alt="React Logo" /> },
@@ -49,6 +23,7 @@ export const skillData = [
   { name: 'Github', Component: () => <img src={Github} width={100} height={100} alt="Github Logo" /> },
   { name: 'Npm', Component: () => <img src={Npm} width={100} height={100} alt="Npm Logo" /> },
   { name: 'MongoDB', Component: () => <img src={Mongodb} width={100} height={100} alt="MongoDB Logo" /> },
+  { name: 'Tailwind', Component: () => <img src={Tailwind} width={100} height={100} alt="Tailwind Logo" /> },
 ];
 
 
@@ -83,4 +58,4 @@ export const companyData = [
       position: 'Jr Software Developer',
       duration: 'Mar 2015 - Feb 2016',
     },
-  ];
+];
